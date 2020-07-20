@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.IdCard{
   display: flex;
+  height:150px;
+  border: black 1px solid;
+
+}
+
+.userInfos p{
+  display: flex;
+  justify-content: space-around;
+font-weight: bold;
+padding: 3px;
+margin: 0;
+}
+
+.userInfos span{
+  font-weight: lighter;
+  color:rgba(red, green, blue, alpha)
+}
+
+.greetings{
+  border:black 1px solid;
+  height :30px;
+  
+}
+
+.CreditCard {
+  display:flex;
   flex-direction: column;
-  align-items: center;
+  margin: 5px 5px 5px 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+}
+.logo {
+  width: 40px;
+  height: 15px;
+  padding: 5px;
+}
+.logoDisp{
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.number {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 25px;
 }
-
-.App-link {
-  color: #61dafb;
+.expDate {
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  display:flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+.padding {
+  padding: 5px;
+}
+.bank {
+  margin-left: 10px;
 }
